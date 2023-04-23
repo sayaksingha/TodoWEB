@@ -24,7 +24,7 @@ nav{
     display: flex;
     position:fixed;
     z-index: 10;
-    left: 5.5%;
+    left: 10%;
     padding: 10px;
     justify-content:space-between;
     max-width: 1200px;
@@ -170,4 +170,10 @@ a{
         background-color: #8db62d;
         border: 2px solid #8db62d;
     }
+    nav{
+     position:fixed;
+    z-index: 10;
+    left: 5%;
+    }
+    
   }
