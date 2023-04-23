@@ -22,9 +22,6 @@ body{
 }
 nav{
     display: flex;
-    position:fixed;
-    z-index: 10;
-    left: 10%;
     padding: 10px;
     justify-content:space-between;
     max-width: 1200px;
@@ -86,12 +83,11 @@ a{
     text-align: center;
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 50%;
 }
 .ask-query-from  input[type='text']
 {   outline: none;
-    border: 2px solid rgb(15, 14, 14);
-    width: 100%;
+    width: 80%;
     padding: 0.5rem;
 }
 .ask-query-from  input[type='submit']{
@@ -170,10 +166,4 @@ a{
         background-color: #8db62d;
         border: 2px solid #8db62d;
     }
-    nav{
-     position:fixed;
-    z-index: 10;
-    left: 5%;
-    }
-    
   }
