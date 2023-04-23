@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@200;900&family=Oswald:wght@200;700&family=Poppins:wght@300;400;500;700;800;900&display=swap');
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    
+}
+.header{
+    position: relative;
+    background: url(./pexels-miguel-á-padriñán-1061136.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+    width: 100wh;
+    padding: 8px;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    position:fixed;
+    z-index: 10;
+    left: 5.5%;
+    padding: 10px;
+    justify-content:space-between;
+    max-width: 1200px;
+    width: 90%;
+    opacity: 0.7;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(91, 91, 91);
+    
+}
+h1{
+    opacity: 1;
+    margin-left: px;
+}
+ul{
+    display: flex;
+    padding: 5px;;
+    width: 50%;
+    list-style-type:none;
+    justify-content: space-around;
+    
+}
+a{
+    text-decoration: none;
+    color:rgb(255, 253, 253)
+}
+.head-line{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+}
+.btn-style{
+    margin:10px;
+    outline: none;
+    padding: 7px;
+    font-size: 1rem;
+    cursor: pointer  ;
+    font-weight: 500;
+    border-radius: 6px;
+    color: rgb(37, 53, 65);
+   
+    border: 1px solid rgb(255, 255, 255);
+}
+.ask-q1{
+    margin-top: 2rem;
+   text-align: center;
+    color: rgb(75, 77, 80);
+}
+
+.ask-query-from  input{
+    display: block;
+} 
+.ask-query-from{
+
+    margin:1rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.ask-query-from  input[type='text']
+{   outline: none;
+    border: 2px solid rgb(15, 14, 14);
+    width: 100%;
+    padding: 0.5rem;
+}
+.ask-query-from  input[type='submit']{
+    width: 30%;
+    max-width: 110px;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color:#2d9cb6;
+}
+
+.from-group input,.from-group {
+    outline: none;
+
+    color: rgb(21, 21, 21);
+    
+}
+.from-group{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign-up{
+    width: 50vw;
+    margin: auto;
+}
+.sign-up input,.sign-up label{
+    display: block;
+   
+   max-width: 400px;
+
+   width: 100%;
+}
+.sign-up label{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.from-group textarea,.sign-up input{
+      
+   max-width: 400px;
+   font-size: 15px;
+   letter-spacing: 2px;
+   width: 100%;
+   padding:5px;
+}
+.sign-div{
+    max-width: 700px;
+   width: 70vw;
+   margin: 3rem auto;
+   background: linear-gradient(90deg,rgb(227, 80, 80) 30%,rgb(104, 104, 177) 70%);
+   ;
+   opacity: 0.9;
+   padding: 1rem;
+}
+.btn-submit{
+    display: flex;
+    justify-content: center;
+}
+.up-logo{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .sign-up label{
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    nav ul{
+        display: none;
+    }
+    .up-logo{
+        height: 3px;
+        background-color: #8db62d;
+        border: 2px solid #8db62d;
+    }
+  }
